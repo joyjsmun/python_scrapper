@@ -31,8 +31,6 @@ def extract_job(html):
   
 
 
-
-
  
 def extract_jobs(last_page):
   jobs=[]
