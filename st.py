@@ -30,8 +30,6 @@ def extract_job(html):
   }
   
 
-
- 
 def extract_jobs(last_page):
   jobs=[]
   for page in range(last_page):
@@ -49,4 +47,5 @@ def extract_jobs(last_page):
 def get_jobs():
   last_page = get_last_page()
   jobs = extract_jobs(last_page)
-  return []
+  print(jobs)
+  return jobs
